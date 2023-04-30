@@ -12,3 +12,16 @@
 # Prints to the screen the directory contents and the new permissions settings of everything in the directory.
 
 # Main
+
+echo "Warning: Altering file permissions can result in malfunctions to your OS."
+sleep  2
+echo "Proceed? [yes/no]"
+read yes
+echo "One last time, is that a real ${yes}?"
+read yes 
+echo "Okay, please input directory path."
+read directory
+echo "Great, please input the permissions number to allow all permissions."
+read permish
+
+- will need to come back to this - im currently trying to figure out how to upload from vs code through my server since im ou of space
