@@ -11,6 +11,7 @@
 # Navigates to the directory input by the user and changes all files inside it to the input setting.
 # Prints to the screen the directory contents and the new permissions settings of everything in the directory.
 
+
 # Main
 
 echo "Warning: Altering file permissions can result in malfunctions to your OS."
