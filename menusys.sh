@@ -30,6 +30,7 @@ while true; do
  echo "Please enter 1, 2, 3, or 4:" 
  read number 
 
+#Evaluation of User's Input
  if [[ $number == 1 ]]; then 
    echo "Hello World" 
  fi 
@@ -48,4 +49,4 @@ while true; do
 
  done
 
-# Resources: ChatGBT, Hexx's Demo Notes 
+# Resources: ChatGBT, Hexx's Demo Notes, DevHints
