@@ -1,4 +1,4 @@
-# Script: Ops 301 Class 04 Ops Challenge Solution
+# Script: Ops 301 Class 06 Ops Challenge Solution
 # Author: Jasmine Garcia
 # Date of latest revision: 5/13/2023
 # Purpose: Create a Python script that executes a few bash commands successfully.
