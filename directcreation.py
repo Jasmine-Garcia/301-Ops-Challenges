@@ -7,9 +7,9 @@
 # Script must use the os.walk() function from the os library.
 # Script must enclose the os.walk() function within a python function that hands it the user input file path.
 
-#!/usr/bin/env python3
-
 #Main
+
+#!/usr/bin/env python3
 
 # Import libraries
 
@@ -18,14 +18,14 @@ import os
 # Declaration of variables
 
 user = input("What is the file path?")
-print("You have entered the file path: ivybean_backups", path)
+print("You have entered the file path: ivybean_backups")
 
 # Declaration of functions
 
-def ivybean_backups(path)
-  for (root, dirs, files) in os.walk("ivybean_backups")
-    print(==root==)
-    print(==dirs==)
-    print(==files==)
+def ivybean_backups(path):
+  for (root, dirs, files) in os.walk("ivybean_backups"):
+    print(root)
+    print(dirs)
+    print(files)
 
 # End
