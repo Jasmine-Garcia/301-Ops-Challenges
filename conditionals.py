@@ -18,7 +18,7 @@
 
 # Variable Declarations 
 
-difficuly = "moderate"
+difficulty = "moderate"
 forecast = "sunny"
 elevation = 2000
 miles = 8
@@ -34,7 +34,7 @@ if difficulty == "moderate":
   print("It's a moderate hike, let's give this hike a try!")
   
 # not equals: a != b
-if forecast != sunny
+if forecast != "sunny":
   print("This isn't the best hiking weather, let's try another day.")
 else:
   print("This is the best hiking forecast, let's go!")
@@ -60,7 +60,7 @@ else:
 # greater than or equal to: a >= b
 if stars >= 5:
   print("This hike has great reviews, I bet it has beautiful views!")
-else 
+else:
   print("This hike has bad reviews. It's probably not worth bringing your camera.")
   
 # Create an if statement that includes both elif and else to execute when both if and elif are not met.
@@ -68,12 +68,11 @@ else
 
 if elevation < 1000:
   print("This trail wil be a piece of cake!")
-elif elavation >= 1000 and elevation < 1500:
+elif elevation >= 1000 and elevation < 1500:
   print("This hike is still doable.")
-else"
+else:
   print("This hike will be impossible.")
 
 # End 
-  
 
 
