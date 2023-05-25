@@ -30,3 +30,5 @@ with open(ivysbeans_file, "w") as ivy:
 os.remove(ivysbeans_file)
 
 # End
+
+# Resources: Hexx's Replit Ops10 Demo, and I asked Cam to clarify reading and printing lines.
