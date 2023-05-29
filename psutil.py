@@ -54,3 +54,7 @@ print("Time spent by normal processes executing in user mode:", virtualization_t
 # Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel
 linux_time = psutil.cpu_times().guest
 print("Time spent by normal processes executing in user mode:", linux_time)
+
+# Resources: GeeksforGeeks: Psutil Module
+
+# End
