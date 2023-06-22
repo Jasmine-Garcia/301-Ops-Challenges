@@ -1,9 +1,23 @@
-function NewADForest {
-  param (
+# Author: Jasmine Garcia
+# Date of latest revision: 6/22/2023
+# Purpose: Create a script that creates an AD Forest
 
-  
-  )
-    # Install the Active Directory Domain Services role
+function NewADForest {
+        param(
+        [Parameter(Mandatory = $true)]
+        [string]$ForestName,
+
+        [Parameter(Mandatory = $true)]
+        [string]$DomainName,
+
+        [Parameter(Mandatory = $true)]
+        [string]$DomainNetBIOSName,
+
+        [Parameter(Mandatory = $true)]
+        [string]$DSRMPassword
+    )
+    
+    # Install Active Directory Domain Services role
     Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools -Verbose
 
     # Promote the server to a domain controller
@@ -26,10 +40,8 @@ function NewADForest {
 }
 
 # Example usage of the function
-NewADForest -ForestName "harmonitech.com" -DomainName "harmonitech" -DomainNetBIOSName "EXAMPLE" -DSRMPassword "Catatemydog89!"
-
-
-
-
+NewADForest -ForestName "harmonitech.com" -DomainName "harmonitech" -DomainNetBIOSName "HARMONITECH" -DSRMPassword "Catatemydog89!"
 
 }
+
+#Resources: 
