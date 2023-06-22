@@ -44,4 +44,4 @@ NewADForest -ForestName "harmonitech.com" -DomainName "harmonitech" -DomainNetBI
 
 }
 
-#Resources: 
+# Resources: https://chat.openai.com/share/04d127d2-4b3e-4198-a535-5a47df2f6a51
